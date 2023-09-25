@@ -78,7 +78,7 @@
     <div class="container d-flex justify-content-between align-items-center py-4">
         <button type="button" class="btn btn-outline-primary">SIGN-UP NOW!</button>
         <div>
-            <span class="px-4">FOLLOW US</span>
+            <span class="px-4 blue">FOLLOW US</span>
             <img class="px-1" src="/images/footer-facebook.png" alt="">
             <img class="px-1" src="/images/footer-twitter.png" alt="">
             <img class="px-1" src="/images/footer-youtube.png" alt="">

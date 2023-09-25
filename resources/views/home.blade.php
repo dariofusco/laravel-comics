@@ -6,16 +6,16 @@
         <div class="container text-center py-5">
             <span class="badge badge-primary">CURRENT SERIES</span>
             <div class="row">
-                <div class="col">
-                    @foreach ($comics as $comic)
+                @foreach ($comics as $comic)
+                    <div class="col">
                         <div class="card">
                             <img class="card-img-top" src="{{ $comic['thumb'] }}" alt="">
                             <div class="card-body">
                                 <p class="card-text">{{ $comic['series'] }}</p>
                             </div>
                         </div>
-                    @endforeach
-                </div>
+                    </div>
+                @endforeach
             </div>
             <button type="button" class="btn btn-primary">LOAD MORE</button>
         </div>
